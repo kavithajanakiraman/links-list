@@ -1,73 +1,86 @@
+
 a{
 	text-decoration: none;
 	color: blue;
-	/*display: inline;*/
+}
+div.link a{
+	color: blue;
+}
+.link a:visited{
+	color: rosybrown;
+}
+.link a:hover{
+	color: red;
+	background-color: green;
+}
+.link a:active{
+	color: darkgoldenrod;
+	background-color: lightyellow;
+	font-weight: bold;
+}
+div.link1 p a{
+	color: blue;
+}
+.link1 p a:visited{
+	color: rosybrown;
+}
+.link1 p a:hover{
+	color: red;
+	background-color: green;
+}
+.link1 p a:active{
+	color: darkgoldenrod;
+	background-color: lightyellow;
+	font-weight: bold;
+}
+div.link2 ul li a{
+	color: blue;
 }
 
-a:link{
+.link2 a:link{
 	color: red;
 }
-a:visited{
+.link2 a:visited{
  color: darkgreen;
 }
-a:hover{
+.link2 a:hover{
 	color: #fff;
 	background-color: #000;
 	font-family: sans-serif;
 	font-style: italic;
 	font-size: 20px;
 }
-a:active{
+.link2 a:active{
 	color: darkviolet;
 	background-color: orange;
 }
-p a{
-	display: inline;
-	color: blue;
-	text-decoration: none;
-}
-ul{
 
-	text-decoration: none;
-	display: flex;
 
-}
 ul.list1{
 	list-style-type: upper-roman;
 	list-style-position: outside;
 	text-decoration: none;
-	display: block;
-
-
 }
 ul.list2{
 	list-style-type: upper-alpha;
 	list-style-position: inside;
 	text-decoration: none;
-	display: inline-block;
-	
-
 }
 ul.list3{
 	list-style-type: lower-latin;
 	list-style-position: inside;
 	text-decoration: none;
-	display: inline;
-	
-
 }
 ul.list4{
 	list-style-type: square;
 	list-style-position: inside;
 	text-decoration: none;
-	display: inline-block;
-	
-
 }
 ul.list5{
 	list-style: none;
 	text-decoration: none;
-	padding-right: 200px;
-	
-
+	display: flex;
+}
+ul.list5 li{
+	padding-right: 20px;
 }
